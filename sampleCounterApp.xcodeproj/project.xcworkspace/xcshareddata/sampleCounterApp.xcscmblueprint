@@ -1,23 +1,28 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "54DDD5550D306D80DC5E1E3B846C813A49F01EC6+++89950FD",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1EEE9A8A8012271CB42FCA28B759521A8C252CE2+++89950FD",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "54DDD5550D306D80DC5E1E3B846C813A49F01EC6+++89950FD" : 0,
-    "54DDD5550D306D80DC5E1E3B846C813A49F01EC6+++7C0946D" : 0,
-    "54DDD5550D306D80DC5E1E3B846C813A49F01EC6+++52A7F92" : 0
+    "54DDD5550D306D80DC5E1E3B846C813A49F01EC6+++52A7F92" : 0,
+    "1EEE9A8A8012271CB42FCA28B759521A8C252CE2+++89950FD" : 0,
+    "54DDD5550D306D80DC5E1E3B846C813A49F01EC6+++7C0946D" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A0898B40-64B5-45F6-BD62-46A7AD6A352D",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "54DDD5550D306D80DC5E1E3B846C813A49F01EC6+++89950FD" : "sampleCounterApp\/",
-    "54DDD5550D306D80DC5E1E3B846C813A49F01EC6+++7C0946D" : "..",
-    "54DDD5550D306D80DC5E1E3B846C813A49F01EC6+++52A7F92" : ".."
+    "54DDD5550D306D80DC5E1E3B846C813A49F01EC6+++52A7F92" : "..",
+    "1EEE9A8A8012271CB42FCA28B759521A8C252CE2+++89950FD" : "sampleCounterApp\/",
+    "54DDD5550D306D80DC5E1E3B846C813A49F01EC6+++7C0946D" : ".."
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "sampleCounterApp",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "sampleCounterApp.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iosClassForBeginner\/healingSoundsApp-5.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1EEE9A8A8012271CB42FCA28B759521A8C252CE2+++89950FD"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iosClassForBeginner\/healingSoundsApp-5.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
@@ -27,11 +32,6 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iosClassForBeginner\/healingSoundsApp-5.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "54DDD5550D306D80DC5E1E3B846C813A49F01EC6+++7C0946D"
-    },
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iosClassForBeginner\/healingSoundsApp-5.git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "54DDD5550D306D80DC5E1E3B846C813A49F01EC6+++89950FD"
     }
   ]
 }
