@@ -15,9 +15,7 @@
 		04E56AD71D4C58D600F316E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E56AD51D4C58D600F316E6 /* LaunchScreen.storyboard */; };
 		04E56AE21D4C58D600F316E6 /* sampleCounterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E56AE11D4C58D600F316E6 /* sampleCounterAppTests.swift */; };
 		04E56AED1D4C58D600F316E6 /* sampleCounterAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E56AEC1D4C58D600F316E6 /* sampleCounterAppUITests.swift */; };
-		04E56AFF1D4C5EED00F316E6 /* headphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E56AFE1D4C5EED00F316E6 /* headphone.png */; };
-		04E56B031D4C5FE100F316E6 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E56B021D4C5FE100F316E6 /* sound.mp3 */; };
-		04E56B051D4C6DCB00F316E6 /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E56B041D4C6DCB00F316E6 /* img.png */; };
+		7AD9A6A71D62A3D10053BCDF /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD9A6A61D62A3D10053BCDF /* img.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +50,7 @@
 		04E56AE81D4C58D600F316E6 /* sampleCounterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleCounterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E56AEC1D4C58D600F316E6 /* sampleCounterAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleCounterAppUITests.swift; sourceTree = "<group>"; };
 		04E56AEE1D4C58D600F316E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04E56AFE1D4C5EED00F316E6 /* headphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headphone.png; sourceTree = "<group>"; };
-		04E56B021D4C5FE100F316E6 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
-		04E56B041D4C6DCB00F316E6 /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
+		7AD9A6A61D62A3D10053BCDF /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +81,6 @@
 		04E56ABD1D4C58D500F316E6 = {
 			isa = PBXGroup;
 			children = (
-				04E56AFD1D4C5EED00F316E6 /* Assets */,
 				04E56AC81D4C58D600F316E6 /* sampleCounterApp */,
 				04E56AE01D4C58D600F316E6 /* sampleCounterAppTests */,
 				04E56AEB1D4C58D600F316E6 /* sampleCounterAppUITests */,
@@ -106,6 +101,7 @@
 		04E56AC81D4C58D600F316E6 /* sampleCounterApp */ = {
 			isa = PBXGroup;
 			children = (
+				7AD9A6A51D62A3620053BCDF /* Assets */,
 				04E56AC91D4C58D600F316E6 /* AppDelegate.swift */,
 				04E56ACB1D4C58D600F316E6 /* ViewController.swift */,
 				04E56ACD1D4C58D600F316E6 /* Main.storyboard */,
@@ -135,14 +131,12 @@
 			path = sampleCounterAppUITests;
 			sourceTree = "<group>";
 		};
-		04E56AFD1D4C5EED00F316E6 /* Assets */ = {
+		7AD9A6A51D62A3620053BCDF /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				04E56B041D4C6DCB00F316E6 /* img.png */,
-				04E56B021D4C5FE100F316E6 /* sound.mp3 */,
-				04E56AFE1D4C5EED00F316E6 /* headphone.png */,
+				7AD9A6A61D62A3D10053BCDF /* img.png */,
 			);
-			path = Assets;
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,12 +243,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E56AFF1D4C5EED00F316E6 /* headphone.png in Resources */,
+				7AD9A6A71D62A3D10053BCDF /* img.png in Resources */,
 				04E56AD71D4C58D600F316E6 /* LaunchScreen.storyboard in Resources */,
 				04E56AD41D4C58D600F316E6 /* Assets.xcassets in Resources */,
-				04E56B051D4C6DCB00F316E6 /* img.png in Resources */,
 				04E56ACF1D4C58D600F316E6 /* Main.storyboard in Resources */,
-				04E56B031D4C5FE100F316E6 /* sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +419,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = sampleCounterApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ii.sampleCounterApp";
+				PRODUCT_BUNDLE_IDENTIFIER = ii.sampleCounterApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -438,7 +430,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = sampleCounterApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ii.sampleCounterApp";
+				PRODUCT_BUNDLE_IDENTIFIER = ii.sampleCounterApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -449,7 +441,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = sampleCounterAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ii.sampleCounterAppTests";
+				PRODUCT_BUNDLE_IDENTIFIER = ii.sampleCounterAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleCounterApp.app/sampleCounterApp";
 			};
@@ -461,7 +453,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = sampleCounterAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ii.sampleCounterAppTests";
+				PRODUCT_BUNDLE_IDENTIFIER = ii.sampleCounterAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleCounterApp.app/sampleCounterApp";
 			};
@@ -472,7 +464,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = sampleCounterAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ii.sampleCounterAppUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = ii.sampleCounterAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = sampleCounterApp;
 			};
@@ -483,7 +475,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = sampleCounterAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ii.sampleCounterAppUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = ii.sampleCounterAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = sampleCounterApp;
 			};
