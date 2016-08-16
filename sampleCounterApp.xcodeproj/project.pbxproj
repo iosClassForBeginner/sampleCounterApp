@@ -203,7 +203,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = "wataru maeda";
+				ORGANIZATIONNAME = "muneharu onoue";
 				TargetAttributes = {
 					04E56AC51D4C58D500F316E6 = {
 						CreatedOnToolsVersion = 7.3.1;

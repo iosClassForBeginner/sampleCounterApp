@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  sampleCounterApp
 //
-//  Created by Wataru Maeda on 7/30/16.
-//  Copyright © 2016 wataru maeda. All rights reserved.
+//  Created by Muneharu Onoue on 7/30/16.
+//  Copyright © 2016 muneharu onoue. All rights reserved.
 //
 
 import UIKit
